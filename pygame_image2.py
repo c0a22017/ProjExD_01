@@ -18,6 +18,7 @@ def main():
 
         screen.blit(bg_img01, [0, 0])#smooth
         screen.blit(bg_img01, [-tmr, 0])#practice4
+        screen.blit(bg_img02, [1600-tmr, 0])#practice6
         screen.blit(kk_imgs[tmr%2], [300,200])#practice5
         pg.display.update()
         tmr += 1        
