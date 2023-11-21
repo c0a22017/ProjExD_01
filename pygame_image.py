@@ -22,7 +22,7 @@ def main():
         screen.blit(kk_imgs[tmr%200//50], [300,200])
         pg.display.update()
         tmr += 1        
-        clock.tick(200)
+        clock.tick(500)
         if(tmr>3199):
             tmr=0
 
